@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Марьяна - Дизайнер интерьеров в Караганде</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-inter bg-white antialiased">
+  <!-- Preloader -->
+  <div id="preloader" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+    <div class="w-16 h-16 border-4 border-gray-900 border-t-transparent rounded-full animate-spin"></div>
+  </div>
+
+  <!-- Header -->
+  <header id="header" class="fixed top-0 w-full z-40 bg-white/95 backdrop-blur-md border-b border-gray-200/50 transition-all duration-300">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-semibold text-gray-900">Марьяна</h1>
+      <div class="hidden md:flex space-x-8">
+        <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors">Обо мне</a>
+        <a href="#portfolio" class="text-gray-600 hover:text-gray-900 transition-colors">Портфолио</a>
+        <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors">Услуги</a>
+        <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors">Контакты</a>
+      </div>
+      <button id="mobile-menu-toggle" class="md:hidden text-gray-600 focus:outline-none">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200">
+      <div class="container mx-auto px-4 py-4 flex flex-col space-y-4">
+        <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors">Обо мне</a>
+        <a href="#portfolio" class="text-gray-600 hover:text-gray-900 transition-colors">Портфолио</a>
+        <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors">Услуги</a>
+        <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors">Контакты</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white relative overflow-hidden fade-in">
+    <div class="absolute inset-0 bg-[url('https://i.pinimg.com/1200x/03/c2/cf/03c2cf36c887e7e43c1c4f81c0d568f0.jpg')] bg-cover bg-center opacity-10"></div>
+    <div class="container mx-auto px-4 text-center relative z-10">
+      <h2 class="text-5xl md:text-7xl font-bold text-gray-900 mb-4 leading-tight">Современный дизайн<br>интерьеров</h2>
+      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Минималистичные и функциональные пространства, вдохновленные скандинавским стилем и современными тенденциями 2025 года.</p>
+      <a href="#contact" class="inline-flex items-center bg-gray-900 text-white py-3 px-8 rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg">Начать проект</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">Обо мне</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">Дизайнер с видением будущего</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="order-2 md:order-1">
+          <img src="mariana3.jpg" alt="Марьяна" class="rounded-2xl shadow-xl w-full">
+        </div>
+        <div class="order-1 md:order-2">
+          <p class="text-lg text-gray-700 mb-6 leading-relaxed">Я Марьяна – дизайнер интерьеров из Караганды, специализируюсь на создании минималистичных, светлых пространств с акцентом на натуральные материалы и умное освещение. С 5-летним опытом, я превращаю идеи в реальность, делая каждый дом уникальным отражением вашего стиля жизни.</p>
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3">
+              <div class="w-2 h-2 bg-gray-900 rounded-full"></div>
+              <span class="text-gray-600">Скандинавский минимализм</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-2 h-2 bg-gray-900 rounded-full"></div>
+              <span class="text-gray-600">Экологичные материалы</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-2 h-2 bg-gray-900 rounded-full"></div>
+              <span class="text-gray-600">Смарт-дом решения</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-20 bg-gray-50 fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">Портфолио</h2>
+        <p class="text-gray-600">Выбранные проекты 2025</p>
+      </div>
+      <div class="relative">
+        <div id="portfolio-slider" class="flex overflow-x-hidden">
+          <div class="portfolio-slide min-w-full md:min-w-[33.33%] transition-transform duration-500">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer" data-image="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+              <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Минималистичная гостиная" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h3 class="text-white font-semibold text-xl mb-1">Гостиная в скандинавском стиле</h3>
+                  <p class="text-gray-300 text-sm">Нейтральные тона, натуральное дерево, мягкое освещение.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-slide min-w-full md:min-w-[33.33%] transition-transform duration-500">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer" data-image="https://images.unsplash.com/photo-1558618047-3c1df6a585eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+              <img src="https://i.pinimg.com/736x/ed/7d/88/ed7d886255e06383126baa736e99f0f2.jpg" alt="Современная кухня" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h3 class="text-white font-semibold text-xl mb-1">Функциональная кухня</h3>
+                  <p class="text-gray-300 text-sm">Мраморные поверхности, интегрированная техника, белая палитра.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-slide min-w-full md:min-w-[33.33%] transition-transform duration-500">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer" data-image="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+              <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Уютная спальня" class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div>
+                  <h3 class="text-white font-semibold text-xl mb-1">Спальня для отдыха</h3>
+                  <p class="text-gray-300 text-sm">Текстиль из льна, встроенные светильники, пастельные акценты.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button id="prev-slide" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-900/80 text-white p-3 rounded-full hover:bg-gray-800 transition">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button id="next-slide" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-900/80 text-white p-3 rounded-full hover:bg-gray-800 transition">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal for Portfolio Images -->
+  <div id="portfolio-modal" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 hidden">
+    <div class="relative max-w-4xl w-full">
+      <img id="modal-image" src="" alt="Portfolio Image" class="w-full rounded-lg">
+      <button id="close-modal" class="absolute top-4 right-4 bg-gray-900/80 text-white p-3 rounded-full hover:bg-gray-800 transition">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">Услуги</h2>
+        <p class="text-gray-600">Полный цикл от концепции до реализации</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-8 bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
+          <div class="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 110 2H5a1 1 0 01-1-1zM4 13a1 1 0 011-1h6a1 1 0 110 2H5a1 1 0 01-1-1zm11 0a1 1 0 11-2 0 1 1 0 012 0zM3 17a1 1 0 011-1h14a1 1 0 110 2H4a1 1 0 01-1-1z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Дизайн-проект</h3>
+          <p class="text-gray-600">Индивидуальный дизайн интерьера с 3D-визуализацией и планами.</p>
+        </div>
+        <div class="text-center p-8 bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
+          <div class="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">3D-визуализация</h3>
+          <p class="text-gray-600">Реалистичные рендеры для полного погружения в будущий интерьер.</p>
+        </div>
+        <div class="text-center p-8 bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300">
+          <div class="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Авторский надзор</h3>
+          <p class="text-gray-600">Контроль реализации проекта на всех этапах работ.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gradient-to-b from-gray-900 to-black text-white fade-in">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-4">Свяжитесь со мной</h2>
+        <p class="text-gray-400">Готовы к трансформации вашего пространства?</p>
+      </div>
+      <div class="max-w-md mx-auto">
+        <form id="contact-form" class="space-y-6">
+          <div>
+            <input type="text" id="name" placeholder="Ваше имя" class="w-full p-4 rounded-xl bg-gray-800/50 border border-gray-700/50 text-white placeholder-gray-400 focus:outline-none focus:border-gray-500 transition-colors">
+            <p class="error text-red-400 text-sm mt-1 hidden">Пожалуйста, введите ваше имя</p>
+          </div>
+          <div>
+            <input type="email" id="email" placeholder="Email" class="w-full p-4 rounded-xl bg-gray-3
+            00/50 border border-gray-700/50 text-white placeholder-gray-400 focus:outline-none focus:border-gray-500 transition-colors">
+            <p class="error text-red-400 text-sm mt-1 hidden">Пожалуйста, введите корректный email</p>
+          </div>
+          <div>
+            <textarea id="message" placeholder="Расскажите о вашем проекте" rows="4" class="w-full p-4 rounded-xl bg-gray-800/50 border border-gray-700/50 text-white placeholder-gray-400 focus:outline-none focus:border-gray-500 transition-colors"></textarea>
+            <p class="error text-red-400 text-sm mt-1 hidden">Пожалуйста, введите сообщение</p>
+          </div>
+          <button type="submit" class="w-full bg-white text-gray-900 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">Отправить сообщение</button>
+          <p id="form-success" class="text-green-400 text-center mt-4 hidden">Сообщение успешно отправлено!</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-gray-600 py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p class="mb-4">&copy; 2025 Марьяна. Дизайнер интерьеров, Караганда. Все права защищены.</p>
+      <div class="flex justify-center space-x-6">
+        <a href="https://www.instagram.com/maryana_design" target="_blank" class="text-gray-600 hover:text-gray-900 transition-colors">
+          <i class="fab fa-instagram text-2xl"></i>
+        </a>
+        <a href="https://wa.me/77001234567" target="_blank" class="text-gray-600 hover:text-gray-900 transition-colors">
+          <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
